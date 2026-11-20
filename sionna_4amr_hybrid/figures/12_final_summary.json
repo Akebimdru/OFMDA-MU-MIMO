@@ -1,0 +1,100 @@
+{
+  "common": {
+    "unique_placements": 6265341,
+    "placement_build_s": 8.6,
+    "path_combinations": 142347,
+    "cpu": "4-core cloud container, numpy"
+  },
+  "1_ofdma_fixed16": {
+    "title": "Baseline 1a: OFDMA, 4 fixed bands x 16 SC (best of 24 assignments every 0.1 s), MRC",
+    "computation_time_s": 23.5,
+    "best_paths": {
+      "AMR1": 1,
+      "AMR2": 8,
+      "AMR3": 4,
+      "AMR4": 13
+    },
+    "rmin_mbps": 60.99,
+    "bottleneck_time_s": 3.7,
+    "bottleneck_amr": "AMR3",
+    "mean_of_instant_min_mbps": 73.37,
+    "makespan_s": 40.7,
+    "travel_time_s": {
+      "AMR1": 36.4,
+      "AMR2": 36.4,
+      "AMR3": 40.7,
+      "AMR4": 35.8
+    },
+    "combos_tied_at_best": 427,
+    "median_over_combos_mbps": 56.18
+  },
+  "2_ofdma_variable": {
+    "title": "Baseline 1b: OFDMA, variable contiguous band sizes (boundary shifting), MRC",
+    "computation_time_s": 281.9,
+    "best_paths": {
+      "AMR1": 5,
+      "AMR2": 19,
+      "AMR3": 25,
+      "AMR4": 9
+    },
+    "rmin_mbps": 68.9,
+    "bottleneck_time_s": 1.1,
+    "bottleneck_amr": "AMR2",
+    "mean_of_instant_min_mbps": 80.55,
+    "makespan_s": 42.2,
+    "travel_time_s": {
+      "AMR1": 40.4,
+      "AMR2": 38.1,
+      "AMR3": 42.2,
+      "AMR4": 35.8
+    },
+    "combos_tied_at_best": 772,
+    "median_over_combos_mbps": 65.21
+  },
+  "3_mumimo": {
+    "title": "Baseline 2: MU-MIMO, all 4 AMRs on full band, 4x4 ZF",
+    "computation_time_s": 361.1,
+    "best_paths": {
+      "AMR1": 14,
+      "AMR2": 20,
+      "AMR3": 22,
+      "AMR4": 19
+    },
+    "rmin_mbps": 145.17,
+    "bottleneck_time_s": 0.1,
+    "bottleneck_amr": "AMR3",
+    "mean_of_instant_min_mbps": 238.22,
+    "makespan_s": 38.7,
+    "travel_time_s": {
+      "AMR1": 35.8,
+      "AMR2": 38.1,
+      "AMR3": 35.8,
+      "AMR4": 38.7
+    },
+    "combos_tied_at_best": 2896,
+    "median_over_combos_mbps": 121.65
+  },
+  "4_hybrid": {
+    "title": "Proposed: hybrid, 2 bands x 2 AMRs, ZF within band (378 options every 0.1 s)",
+    "computation_time_s": 612.1,
+    "best_paths": {
+      "AMR1": 5,
+      "AMR2": 20,
+      "AMR3": 19,
+      "AMR4": 3
+    },
+    "rmin_mbps": 125.89,
+    "bottleneck_time_s": 0.3,
+    "bottleneck_amr": "AMR3",
+    "mean_of_instant_min_mbps": 155.36,
+    "makespan_s": 40.4,
+    "travel_time_s": {
+      "AMR1": 40.4,
+      "AMR2": 38.1,
+      "AMR3": 38.1,
+      "AMR4": 35.8
+    },
+    "combos_tied_at_best": 2818,
+    "median_over_combos_mbps": 118.3
+  }
+}

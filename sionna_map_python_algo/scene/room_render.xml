@@ -1,0 +1,90 @@
+<scene version="3.0.0">
+  <bsdf type="itu-radio-material" id="mat-room">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.2"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-wall">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.15"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-pillar">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.3"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-cabinet">
+    <string name="type" value="wood"/>
+    <float name="thickness" value="0.3"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <shape type="ply" id="wall_x0">
+    <string name="filename" value="meshes/wall_x0.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_x18">
+    <string name="filename" value="meshes/wall_x18.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_y0">
+    <string name="filename" value="meshes/wall_y0.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_y10">
+    <string name="filename" value="meshes/wall_y10.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="floor">
+    <string name="filename" value="meshes/floor.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_wall_s">
+    <string name="filename" value="meshes/obs_wall_s.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_wall_n">
+    <string name="filename" value="meshes/obs_wall_n.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_bs">
+    <string name="filename" value="meshes/obs_pillar_bs.ply"/>
+    <ref id="mat-pillar" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_sw">
+    <string name="filename" value="meshes/obs_pillar_sw.ply"/>
+    <ref id="mat-pillar" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_nw">
+    <string name="filename" value="meshes/obs_pillar_nw.ply"/>
+    <ref id="mat-pillar" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_se">
+    <string name="filename" value="meshes/obs_pillar_se.ply"/>
+    <ref id="mat-pillar" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_ne">
+    <string name="filename" value="meshes/obs_pillar_ne.ply"/>
+    <ref id="mat-pillar" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_e">
+    <string name="filename" value="meshes/obs_pillar_e.ply"/>
+    <ref id="mat-pillar" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_cab_s1">
+    <string name="filename" value="meshes/obs_cab_s1.ply"/>
+    <ref id="mat-cabinet" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_cab_n1">
+    <string name="filename" value="meshes/obs_cab_n1.ply"/>
+    <ref id="mat-cabinet" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_cab_s2">
+    <string name="filename" value="meshes/obs_cab_s2.ply"/>
+    <ref id="mat-cabinet" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_cab_n2">
+    <string name="filename" value="meshes/obs_cab_n2.ply"/>
+    <ref id="mat-cabinet" name="bsdf"/>
+  </shape>
+</scene>

@@ -1,0 +1,26 @@
+<scene version="3.0.0">
+  <bsdf type="itu-radio-material" id="mat-concrete">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-wood">
+    <string name="type" value="wood"/>
+    <float name="thickness" value="0.2"/>
+  </bsdf>
+  <shape type="ply" id="wall_x0">
+    <string name="filename" value="meshes/wall_x0.ply"/>
+    <ref id="mat-concrete" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_x18">
+    <string name="filename" value="meshes/wall_x18.ply"/>
+    <ref id="mat-concrete" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_y0">
+    <string name="filename" value="meshes/wall_y0.ply"/>
+    <ref id="mat-concrete" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_y10">
+    <string name="filename" value="meshes/wall_y10.ply"/>
+    <ref id="mat-concrete" name="bsdf"/>
+  </shape>
+</scene>

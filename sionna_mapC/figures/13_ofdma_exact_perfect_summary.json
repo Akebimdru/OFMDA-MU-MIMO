@@ -1,0 +1,64 @@
+{
+  "channel": "10 cm Sionna map, simultaneous departure",
+  "exact_bisection": {
+    "best_paths": {
+      "AMR1": 7,
+      "AMR2": 10,
+      "AMR3": 11,
+      "AMR4": 11
+    },
+    "rmin_mbps": 75.235,
+    "combos_tied_at_best": 14,
+    "mean_of_instant_min_mbps": 81.97,
+    "boundary_shift_on_same_paths_rmin_mbps": 75.235,
+    "band_size_range_per_amr": {
+      "AMR1": [
+        15,
+        19
+      ],
+      "AMR2": [
+        14,
+        18
+      ],
+      "AMR3": [
+        13,
+        18
+      ],
+      "AMR4": [
+        15,
+        19
+      ]
+    },
+    "median_over_combos_mbps": 69.46
+  },
+  "boundary_shift": {
+    "best_paths": {
+      "AMR1": 7,
+      "AMR2": 10,
+      "AMR3": 11,
+      "AMR4": 11
+    },
+    "rmin_mbps": 75.235,
+    "median_over_combos_mbps": 69.46,
+    "best_as_pct_of_exact_best": 100.0
+  },
+  "fixed16_best_of_24_rmin_mbps": 69.9,
+  "per_combination_gap_mbps": {
+    "identical_pct(<0.01)": 98.77,
+    "mean": 0.0048,
+    "max": 2.267
+  },
+  "per_placement_gap_mbps": {
+    "identical_pct(<0.01)": 99.748,
+    "mean": 0.00134,
+    "max": 3.902
+  },
+  "brute_force_spot_check": {
+    "n_samples": 300,
+    "max_abs_brute_minus_bisection_mbps": 2.3797082424163817e-05,
+    "max_brute_minus_boundary_shift_mbps": 0.0,
+    "boundary_shift_within_0.01mbps_pct": 100.0
+  },
+  "unique_placements": 7969092,
+  "runtime_min": 62.1
+}

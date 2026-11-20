@@ -1,0 +1,40 @@
+{
+  "scheme": "MU-MIMO only, 4x4 ZF, all 64 subcarriers shared",
+  "n_combos_evaluated": 142347,
+  "runtime_s": 345.7,
+  "best": {
+    "paths": {
+      "AMR1": 14,
+      "AMR2": 20,
+      "AMR3": 8,
+      "AMR4": 20
+    },
+    "rmin_mbps": 181.33,
+    "mean_of_instant_min_mbps": 233.51,
+    "mean_rate_per_amr_mbps": {
+      "AMR1": 283.7,
+      "AMR2": 256.8,
+      "AMR3": 242.89,
+      "AMR4": 265.09
+    },
+    "makespan_s": 38.1
+  },
+  "fastest_collision_free": {
+    "paths": {
+      "AMR1": 19,
+      "AMR2": 7,
+      "AMR3": 0,
+      "AMR4": 8
+    },
+    "rmin_mbps": 122.71,
+    "makespan_s": 37.6
+  },
+  "rmin_distribution_mbps": {
+    "min": 69.02,
+    "p10": 111.42,
+    "median": 132.66,
+    "p90": 150.97,
+    "max": 181.33
+  },
+  "zf_loss_vs_single_user_mrc_best_combo_mbps": 63.21
+}

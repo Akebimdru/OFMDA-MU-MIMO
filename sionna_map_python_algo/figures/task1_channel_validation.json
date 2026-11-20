@@ -1,0 +1,17 @@
+{
+  "snr_siso_shape": [
+    20,
+    36
+  ],
+  "snr_mimo_shape": [
+    20,
+    36
+  ],
+  "siso_near_bs_db": 47.83303795796105,
+  "siso_east_shadow_db": 15.06103349505352,
+  "brightest_siso_db": 56.25322924911436,
+  "darkest_siso_db": -56.04410937332814,
+  "siso_contrast_db": 112.29733862244251,
+  "mimo_minus_siso_mean_db": 6.867040221940854,
+  "mimo_minus_siso_std_db": 2.9305578310157623
+}

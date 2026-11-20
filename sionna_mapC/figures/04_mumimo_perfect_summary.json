@@ -1,0 +1,33 @@
+{
+  "map_folder": "sionna_mapC",
+  "channel": "10 cm Sionna RT map (3 Gaussian impairments)",
+  "feasible_combos": 131521,
+  "fastest_combo": {
+    "AMR1": 5,
+    "AMR2": 2,
+    "AMR3": 2,
+    "AMR4": 0
+  },
+  "fastest_makespan_s": 33.0,
+  "csi": "perfect",
+  "best_paths": {
+    "AMR1": 0,
+    "AMR2": 6,
+    "AMR3": 15,
+    "AMR4": 3
+  },
+  "rmin_mbps": 196.92,
+  "combos_tied_at_best": 4,
+  "mean_of_instant_min_mbps": 240.33,
+  "makespan_s": 34.6,
+  "median_over_combos_mbps": 131.41,
+  "fastest_combo_rmin_mbps": 143.16,
+  "perfect_csi_best_combo_rmin_mbps": 196.92,
+  "mean_rate_per_amr_mbps": {
+    "AMR1": 254.93,
+    "AMR2": 279.32,
+    "AMR3": 262.81,
+    "AMR4": 270.28
+  },
+  "runtime_min_both": 36.2
+}

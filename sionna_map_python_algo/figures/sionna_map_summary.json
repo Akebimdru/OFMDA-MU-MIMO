@@ -1,0 +1,35 @@
+{
+  "map_comparison": {
+    "handout_west_mean_db": 45.95786013663406,
+    "handout_east_mean_db": 31.699754127434097,
+    "sionna_west_mean_db": 45.61420762888795,
+    "sionna_east_mean_db": 17.11954952176879,
+    "sionna_minus_handout_mean_db": -7.461928556705708
+  },
+  "path_statistics": {
+    "paths_total": 40776357,
+    "paths_per_link_mean": 14158.457291666668,
+    "paths_per_link_max": 31846,
+    "power_share": {
+      "LOS": 0.7413570315433397,
+      "specular": 0.21381458723328636,
+      "diffuse": 0.011212910506752563,
+      "refraction": 0.0010456936867558264,
+      "diffraction": 0.044906781241784335
+    },
+    "path_count_by_type": {
+      "LOS": 1160,
+      "specular": 29126484,
+      "diffuse": 33048619,
+      "refraction": 671462,
+      "diffraction": 7233745
+    },
+    "cells_without_paths": 1,
+    "rt_runtime_s": 1348.002159833908
+  },
+  "gaussian_noise": {
+    "median_abs_delta_db": 1.0750609459496623,
+    "p95_abs_delta_db": 5.43715107789926
+  },
+  "render": "/home/claude/work/sionna_map_python_algo/figures/00_sionna_scene_render.png"
+}

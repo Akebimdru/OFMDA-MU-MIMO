@@ -1,0 +1,120 @@
+{
+  "schemes": {
+    "NAIVE": {
+      "path": "Shortest",
+      "bw": "equal",
+      "antenna": "siso",
+      "path_pair": [
+        0,
+        0
+      ],
+      "used_fallback": false,
+      "rmin_mbps": 9.304151345565689,
+      "mean_mbps": 54.048065177641845,
+      "completion_time_s": 36.970562748477136
+    },
+    "+MRC": {
+      "path": "Shortest",
+      "bw": "equal",
+      "antenna": "mrc",
+      "path_pair": [
+        0,
+        0
+      ],
+      "used_fallback": false,
+      "rmin_mbps": 21.289944437818246,
+      "mean_mbps": 77.36020490380639,
+      "completion_time_s": 36.970562748477136
+    },
+    "+OPTBW": {
+      "path": "Shortest",
+      "bw": "opt",
+      "antenna": "siso",
+      "path_pair": [
+        0,
+        0
+      ],
+      "used_fallback": false,
+      "rmin_mbps": 12.984676551619888,
+      "mean_mbps": 72.19199300106358,
+      "completion_time_s": 36.970562748477136
+    },
+    "+SMARTPATH": {
+      "path": "CommAware",
+      "bw": "equal",
+      "antenna": "siso",
+      "path_pair": [
+        0,
+        9
+      ],
+      "used_fallback": true,
+      "rmin_mbps": 16.651187120903394,
+      "mean_mbps": 50.85690457527821,
+      "completion_time_s": 44.04163056034261
+    },
+    "MRC OPTBW": {
+      "path": "Shortest",
+      "bw": "opt",
+      "antenna": "mrc",
+      "path_pair": [
+        0,
+        0
+      ],
+      "used_fallback": false,
+      "rmin_mbps": 47.253180394095764,
+      "mean_mbps": 100.56599098969798,
+      "completion_time_s": 36.970562748477136
+    },
+    "MRC SMART": {
+      "path": "CommAware",
+      "bw": "equal",
+      "antenna": "mrc",
+      "path_pair": [
+        0,
+        2
+      ],
+      "used_fallback": true,
+      "rmin_mbps": 45.61117673652193,
+      "mean_mbps": 74.46624596527467,
+      "completion_time_s": 39.21320343559642
+    },
+    "OPT SMART": {
+      "path": "CommAware",
+      "bw": "opt",
+      "antenna": "siso",
+      "path_pair": [
+        0,
+        6
+      ],
+      "used_fallback": true,
+      "rmin_mbps": 32.326360658454625,
+      "mean_mbps": 72.75297487409122,
+      "completion_time_s": 42.14213562373095
+    },
+    "JOINT": {
+      "path": "CommAware",
+      "bw": "opt",
+      "antenna": "mrc",
+      "path_pair": [
+        0,
+        22
+      ],
+      "used_fallback": false,
+      "rmin_mbps": 71.8390673838762,
+      "mean_mbps": 103.83655726940934,
+      "completion_time_s": 36.970562748477136
+    }
+  },
+  "marginal_rmin_mbps": {
+    "add": {
+      "MRC": 11.985793092252557,
+      "OptBW": 3.680525206054199,
+      "SmartPath": 7.347035775337705
+    },
+    "drop": {
+      "MRC": 39.51270672542157,
+      "OptBW": 26.227890647354272,
+      "SmartPath": 24.585886989780434
+    }
+  }
+}

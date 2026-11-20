@@ -1,0 +1,39 @@
+{
+  "fine_map": {
+    "resolution_m": 0.1,
+    "points": 12800,
+    "free_points": 12096
+  },
+  "ofdma_adaptive": {
+    "coarse_best_mbps": 62.77,
+    "fine_best_mbps": 60.99,
+    "fine_best_paths": {
+      "AMR1": 1,
+      "AMR2": 8,
+      "AMR3": 4,
+      "AMR4": 0
+    },
+    "fine_value_of_coarse_best_mbps": 57.86,
+    "fine_median_mbps": 56.18,
+    "rank_corr_coarse_vs_fine": 0.54
+  },
+  "ofdma_fixed": {
+    "coarse_best_mbps": 59.28,
+    "fine_best_mbps": 59.04
+  },
+  "mumimo": {
+    "coarse_best_mbps": 181.33,
+    "fine_best_mbps_among_evaluated": 145.17,
+    "fine_best_paths": {
+      "AMR1": 0,
+      "AMR2": 25,
+      "AMR3": 8,
+      "AMR4": 2
+    },
+    "fine_value_of_coarse_best_mbps": 145.17,
+    "best_is_from_coarse_top3000": false,
+    "rank_corr_coarse_vs_fine_random3000": 0.285,
+    "fine_median_random3000_mbps": 122.0
+  },
+  "runtime_s": 137.7
+}

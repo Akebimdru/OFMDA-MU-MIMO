@@ -1,0 +1,143 @@
+{
+  "map": "sionna_mapC",
+  "combos": 131521,
+  "steps": 438,
+  "decisions": 57606198,
+  "unique_placements": 7969092,
+  "methods": {
+    "restart (current)": {
+      "a_best_rmin_mbps": 75.235,
+      "a_best_paths": {
+        "AMR1": 7,
+        "AMR2": 10,
+        "AMR3": 11,
+        "AMR4": 11
+      },
+      "a_median_rmin_over_combos_mbps": 69.46,
+      "a_rmin_gap_to_exact_on_same_combo_mbps": {
+        "mean": 0.0048,
+        "max": 2.267,
+        "identical_pct": 98.77
+      },
+      "b_match_exact_per_decision_pct": 99.851,
+      "b_gap_per_decision_mbps": {
+        "mean": 0.0007,
+        "p99": -0.0,
+        "max": 3.902
+      },
+      "c_subtractions_per_decision": {
+        "mean": 401.4,
+        "p90": 588.0,
+        "max": 1064
+      },
+      "d_order_changes_per_trajectory": {
+        "mean": 244.7,
+        "best_combo": 211
+      },
+      "d_subcarrier_owner_changes_per_trajectory": {
+        "mean": 11176.4,
+        "best_combo": 9593,
+        "per_step_mean": 25.58
+      },
+      "time_total_s": 342.1,
+      "time_note": "restart: per unique placement (dedup); warm: every decision, no dedup",
+      "us_per_decision_same_sample": 35.56,
+      "time_no_dedup_est_min": 34.1
+    },
+    "warm_greedy (user)": {
+      "a_best_rmin_mbps": 73.96,
+      "a_best_paths": {
+        "AMR1": 7,
+        "AMR2": 10,
+        "AMR3": 4,
+        "AMR4": 22
+      },
+      "a_median_rmin_over_combos_mbps": 67.201,
+      "a_rmin_gap_to_exact_on_same_combo_mbps": {
+        "mean": 2.2192,
+        "max": 8.176,
+        "identical_pct": 0.57
+      },
+      "b_match_exact_per_decision_pct": 14.085,
+      "b_gap_per_decision_mbps": {
+        "mean": 1.2176,
+        "p99": 4.525,
+        "max": 11.933
+      },
+      "c_subtractions_per_decision": {
+        "mean": 22.0,
+        "p90": 24.0,
+        "max": 48
+      },
+      "d_order_changes_per_trajectory": {
+        "mean": 185.4,
+        "best_combo": 160
+      },
+      "d_subcarrier_owner_changes_per_trajectory": {
+        "mean": 7358.6,
+        "best_combo": 6351,
+        "per_step_mean": 16.84
+      },
+      "time_total_s": 250.8,
+      "time_note": "restart: per unique placement (dedup); warm: every decision, no dedup",
+      "us_per_decision_same_sample": 3.44,
+      "time_no_dedup_est_min": 3.3
+    },
+    "warm_exact (24 assign)": {
+      "a_best_rmin_mbps": 74.277,
+      "a_best_paths": {
+        "AMR1": 6,
+        "AMR2": 10,
+        "AMR3": 8,
+        "AMR4": 14
+      },
+      "a_median_rmin_over_combos_mbps": 67.564,
+      "a_rmin_gap_to_exact_on_same_combo_mbps": {
+        "mean": 1.8647,
+        "max": 10.85,
+        "identical_pct": 2.02
+      },
+      "b_match_exact_per_decision_pct": 23.773,
+      "b_gap_per_decision_mbps": {
+        "mean": 0.9237,
+        "p99": 4.282,
+        "max": 16.307
+      },
+      "c_subtractions_per_decision": {
+        "mean": 22.0,
+        "p90": 24.0,
+        "max": 56
+      },
+      "d_order_changes_per_trajectory": {
+        "mean": 167.7,
+        "best_combo": 150
+      },
+      "d_subcarrier_owner_changes_per_trajectory": {
+        "mean": 6672.9,
+        "best_combo": 5898,
+        "per_step_mean": 15.27
+      },
+      "time_total_s": 220.2,
+      "time_note": "restart: per unique placement (dedup); warm: every decision, no dedup",
+      "us_per_decision_same_sample": 3.1,
+      "time_no_dedup_est_min": 3.0
+    }
+  },
+  "exact": {
+    "best_rmin_mbps": 75.235,
+    "best_paths": {
+      "AMR1": 7,
+      "AMR2": 10,
+      "AMR3": 11,
+      "AMR4": 11
+    },
+    "time_total_dedup_s": 3220.2,
+    "us_per_decision_same_sample": 403.26,
+    "time_no_dedup_est_min": 387.2
+  },
+  "warm_assign_comparisons_per_decision": {
+    "greedy": "4 rounds over remaining 4x4 entries (16+12+8+4 max/argmax)",
+    "exact_24": "24 x 4 lookups + 24 mins (no extra rate computation)"
+  },
+  "runtime_total_min": 73.0
+}

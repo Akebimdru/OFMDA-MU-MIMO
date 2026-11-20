@@ -1,0 +1,27 @@
+{
+  "NAIVE": {
+    "offline_rmin_mbps": 9.304151345565689,
+    "online_rmin_mean_mbps": 6.950859989321227,
+    "offline_to_online_ratio": 0.7470708215246273
+  },
+  "+MRC": {
+    "offline_rmin_mbps": 21.289944437818246,
+    "online_rmin_mean_mbps": 16.86697446013073,
+    "offline_to_online_ratio": 0.7922507505547642
+  },
+  "+OPTBW": {
+    "offline_rmin_mbps": 12.984676551619888,
+    "online_rmin_mean_mbps": 10.61174993479233,
+    "offline_to_online_ratio": 0.8172517730885237
+  },
+  "+SMARTPATH": {
+    "offline_rmin_mbps": 16.651187120903394,
+    "online_rmin_mean_mbps": 12.557811081335066,
+    "offline_to_online_ratio": 0.7541691166013246
+  },
+  "JOINT": {
+    "offline_rmin_mbps": 71.8390673838762,
+    "online_rmin_mean_mbps": 57.208108549154744,
+    "offline_to_online_ratio": 0.7963370159506653
+  }
+}

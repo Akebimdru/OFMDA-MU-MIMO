@@ -1,0 +1,63 @@
+{
+  "n_paths_per_amr": 26,
+  "total_combinations": 456976,
+  "min_separation_m": 0.5,
+  "pairs": {
+    "AMR1-AMR2": {
+      "safe": 439,
+      "of": 676,
+      "shortest_pair_safe": false,
+      "shortest_pair_min_dist_m": 0.01
+    },
+    "AMR1-AMR3": {
+      "safe": 578,
+      "of": 676,
+      "shortest_pair_safe": false,
+      "shortest_pair_min_dist_m": 0.022
+    },
+    "AMR1-AMR4": {
+      "safe": 595,
+      "of": 676,
+      "shortest_pair_safe": true,
+      "shortest_pair_min_dist_m": 0.5
+    },
+    "AMR2-AMR3": {
+      "safe": 584,
+      "of": 676,
+      "shortest_pair_safe": true,
+      "shortest_pair_min_dist_m": 0.5
+    },
+    "AMR2-AMR4": {
+      "safe": 575,
+      "of": 676,
+      "shortest_pair_safe": false,
+      "shortest_pair_min_dist_m": 0.022
+    },
+    "AMR3-AMR4": {
+      "safe": 532,
+      "of": 676,
+      "shortest_pair_safe": false,
+      "shortest_pair_min_dist_m": 0.01
+    }
+  },
+  "stage1_pairs_14": 595,
+  "stage1_pairs_23": 584,
+  "stage1_combinations": 347480,
+  "feasible_combinations": 131521,
+  "shortest_all_safe": false,
+  "best_by_makespan": {
+    "paths": {
+      "AMR1": 5,
+      "AMR2": 2,
+      "AMR3": 2,
+      "AMR4": 0
+    },
+    "makespan_s": 33.0
+  },
+  "count_by_paths_used": {
+    "AMR1": 26,
+    "AMR2": 26,
+    "AMR3": 26,
+    "AMR4": 26
+  }
+}

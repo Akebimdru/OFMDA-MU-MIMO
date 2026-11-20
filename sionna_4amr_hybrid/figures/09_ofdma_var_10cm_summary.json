@@ -1,0 +1,54 @@
+{
+  "channel": "10 cm Sionna map, simultaneous departure",
+  "algorithm": "per 0.1 s and per band order (24): start 16 each, shift contiguous boundaries one SC from max-rate to min-rate AMR while instantaneous R_min strictly increases; best order",
+  "variable_size": {
+    "best_paths": {
+      "AMR1": 5,
+      "AMR2": 19,
+      "AMR3": 25,
+      "AMR4": 9
+    },
+    "rmin_mbps": 68.9,
+    "combos_tied_at_best": 772,
+    "mean_of_instant_min_mbps": 80.55,
+    "same_paths_16each_rmin_mbps": 59.62,
+    "band_size_range_per_amr": {
+      "AMR1": [
+        13,
+        18
+      ],
+      "AMR2": [
+        15,
+        20
+      ],
+      "AMR3": [
+        14,
+        20
+      ],
+      "AMR4": [
+        12,
+        19
+      ]
+    },
+    "median_over_combos_mbps": 65.21
+  },
+  "fixed16_best_of_24": {
+    "best_paths": {
+      "AMR1": 1,
+      "AMR2": 8,
+      "AMR3": 4,
+      "AMR4": 13
+    },
+    "rmin_mbps": 60.99,
+    "median_over_combos_mbps": 56.18
+  },
+  "gain_over_16each_same_paths_mbps": {
+    "median": 9.33,
+    "max": 21.91,
+    "min": 1.25
+  },
+  "unique_placements": 6265341,
+  "max_iterations": 11,
+  "mumimo_rmin_mbps_ref": 145.17,
+  "runtime_min": 6.4
+}

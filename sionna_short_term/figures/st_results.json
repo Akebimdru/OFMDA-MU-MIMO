@@ -1,0 +1,477 @@
+{
+  "config": {
+    "ST_PATH_LEN_JITTER_STD_M": 0.002,
+    "ST_PATH_AMP_JITTER_STD": 0.05,
+    "ST_PATH_COHERENCE_S": 0.5,
+    "ST_DIFFUSE_K_DB": 10.0,
+    "ST_DIFFUSE_N": 20,
+    "ST_DIFFUSE_DELAY_SPREAD_S": 1.5e-08,
+    "ST_DIFFUSE_COHERENCE_S": 0.2,
+    "ST_N_REALIZATIONS": 30,
+    "ST_K_SWEEP_DB": [
+      40.0,
+      20.0,
+      15.0,
+      10.0,
+      5.0,
+      0.0
+    ],
+    "ST_FINE_SEGMENT_M": 2.0,
+    "ST_FINE_STEP_M": 0.002
+  },
+  "grid_short_term_db": {
+    "mean": -0.913251868049116,
+    "std": 3.3896058684666412,
+    "min": -23.131734444958184,
+    "max": 4.751179744993337
+  },
+  "joint_amr1_short_term_db": {
+    "multipath_std": 3.868907004052723,
+    "multipath_plus_gauss_std": 3.835905386987053,
+    "grid_vs_rt_exact_rms_db": 3.8621191284704843
+  },
+  "fine_segment": {
+    "coherence_distance_m_at_acf_0.5": 0.012,
+    "coherence_distance_over_lambda": 0.23216061025791382,
+    "short_term_db_std_rt": 2.4158734119793364,
+    "short_term_db_std_rt_gauss": 3.3457076401131203,
+    "p_below_minus10db_rt": 0.00287109375,
+    "p_below_minus10db_rt_gauss": 0.01601015625
+  },
+  "schemes": {
+    "NAIVE": {
+      "long_term_grid": {
+        "rmin_mbps": 12.851577758101094,
+        "rmin_p10_mbps": 12.851577758101094,
+        "mean_mbps": 80.04983055390724,
+        "outage_frac": 0.29649595687331537
+      },
+      "rt_exact": {
+        "rmin_mbps": 0.5074877011715263,
+        "rmin_p10_mbps": 0.5074877011715263,
+        "mean_mbps": 79.39216376840949,
+        "outage_frac": 0.32345013477088946
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 0.5074877011715263,
+        "rmin_p10_mbps": 0.5074877011715263,
+        "mean_mbps": 79.39216376840949,
+        "outage_frac": 0.32345013477088946
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 2.291379013318557,
+        "rmin_p10_mbps": 0.6909490446027113,
+        "mean_mbps": 80.32759847528004,
+        "outage_frac": 0.3081761006289308
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 2.291379013318557,
+        "rmin_p10_mbps": 0.6909490446027113,
+        "mean_mbps": 80.32759847528004,
+        "outage_frac": 0.3081761006289308
+      }
+    },
+    "+MRC": {
+      "long_term_grid": {
+        "rmin_mbps": 41.44253711611636,
+        "rmin_p10_mbps": 41.44253711611636,
+        "mean_mbps": 103.62853852237565,
+        "outage_frac": 0.16442048517520216
+      },
+      "rt_exact": {
+        "rmin_mbps": 2.7687889977844873,
+        "rmin_p10_mbps": 2.7687889977844873,
+        "mean_mbps": 101.23456634020374,
+        "outage_frac": 0.14824797843665768
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 2.7687889977844873,
+        "rmin_p10_mbps": 2.7687889977844873,
+        "mean_mbps": 101.23456634020374,
+        "outage_frac": 0.14824797843665768
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 9.735015743373593,
+        "rmin_p10_mbps": 5.561450597755327,
+        "mean_mbps": 102.72546240138536,
+        "outage_frac": 0.13279424977538185
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 9.735015743373593,
+        "rmin_p10_mbps": 5.561450597755327,
+        "mean_mbps": 102.72546240138536,
+        "outage_frac": 0.13279424977538185
+      }
+    },
+    "+OPTBW": {
+      "long_term_grid": {
+        "rmin_mbps": 27.732818776349475,
+        "rmin_p10_mbps": 27.732818776349475,
+        "mean_mbps": 98.76316152591687,
+        "outage_frac": 0.1967654986522911
+      },
+      "rt_exact": {
+        "rmin_mbps": 1.4440621963040539,
+        "rmin_p10_mbps": 1.4440621963040539,
+        "mean_mbps": 91.323935568949,
+        "outage_frac": 0.23450134770889489
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 1.9272751416957552,
+        "rmin_p10_mbps": 1.9272751416957552,
+        "mean_mbps": 98.40159023765779,
+        "outage_frac": 0.18598382749326145
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 4.964244364864628,
+        "rmin_p10_mbps": 1.976339349603327,
+        "mean_mbps": 91.45267089902454,
+        "outage_frac": 0.23638814016172507
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 6.846678072875322,
+        "rmin_p10_mbps": 2.7920723424707754,
+        "mean_mbps": 99.00669933443565,
+        "outage_frac": 0.1778975741239892
+      }
+    },
+    "+SMARTPATH": {
+      "long_term_grid": {
+        "rmin_mbps": 14.562812706303522,
+        "rmin_p10_mbps": 14.562812706303522,
+        "mean_mbps": 85.42871364274676,
+        "outage_frac": 0.26077097505668934
+      },
+      "rt_exact": {
+        "rmin_mbps": 1.9431494143615067,
+        "rmin_p10_mbps": 1.9431494143615067,
+        "mean_mbps": 84.67756744365396,
+        "outage_frac": 0.29931972789115646
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 1.9431494143615067,
+        "rmin_p10_mbps": 1.9431494143615067,
+        "mean_mbps": 84.67756744365396,
+        "outage_frac": 0.29931972789115646
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 4.95896285434865,
+        "rmin_p10_mbps": 1.22496599202291,
+        "mean_mbps": 85.86752626422664,
+        "outage_frac": 0.2788359788359788
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 4.95896285434865,
+        "rmin_p10_mbps": 1.22496599202291,
+        "mean_mbps": 85.86752626422664,
+        "outage_frac": 0.2788359788359788
+      }
+    },
+    "MRC OPTBW": {
+      "long_term_grid": {
+        "rmin_mbps": 64.29500810464413,
+        "rmin_p10_mbps": 64.29500810464413,
+        "mean_mbps": 123.59419943282082,
+        "outage_frac": 0.008086253369272238
+      },
+      "rt_exact": {
+        "rmin_mbps": 5.370054795204637,
+        "rmin_p10_mbps": 5.370054795204637,
+        "mean_mbps": 117.88656899218228,
+        "outage_frac": 0.07277628032345014
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 7.868310170351216,
+        "rmin_p10_mbps": 7.868310170351216,
+        "mean_mbps": 121.64069415484953,
+        "outage_frac": 0.05121293800539083
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 17.750091233378246,
+        "rmin_p10_mbps": 11.848668120569636,
+        "mean_mbps": 119.29685404797046,
+        "outage_frac": 0.05399820305480683
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 22.001487327980062,
+        "rmin_p10_mbps": 14.070029665965626,
+        "mean_mbps": 123.2947066168493,
+        "outage_frac": 0.04429469901168014
+      }
+    },
+    "MRC SMART": {
+      "long_term_grid": {
+        "rmin_mbps": 63.116687417680396,
+        "rmin_p10_mbps": 63.116687417680396,
+        "mean_mbps": 114.67062177400243,
+        "outage_frac": 0.010482180293501049
+      },
+      "rt_exact": {
+        "rmin_mbps": 53.56456110334721,
+        "rmin_p10_mbps": 53.56456110334721,
+        "mean_mbps": 112.38932672855675,
+        "outage_frac": 0.018867924528301886
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 53.56456110334721,
+        "rmin_p10_mbps": 53.56456110334721,
+        "mean_mbps": 112.38932672855675,
+        "outage_frac": 0.018867924528301886
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 54.45984793308446,
+        "rmin_p10_mbps": 49.65668125127061,
+        "mean_mbps": 114.35132674578196,
+        "outage_frac": 0.013207547169811321
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 54.45984793308446,
+        "rmin_p10_mbps": 49.65668125127061,
+        "mean_mbps": 114.35132674578196,
+        "outage_frac": 0.013207547169811321
+      }
+    },
+    "OPT SMART": {
+      "long_term_grid": {
+        "rmin_mbps": 31.7371310624226,
+        "rmin_p10_mbps": 31.7371310624226,
+        "mean_mbps": 97.74198774646374,
+        "outage_frac": 0.1358313817330211
+      },
+      "rt_exact": {
+        "rmin_mbps": 2.4083419723593273,
+        "rmin_p10_mbps": 2.4083419723593273,
+        "mean_mbps": 90.48912105812035,
+        "outage_frac": 0.18501170960187355
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 3.6357694061782744,
+        "rmin_p10_mbps": 3.6357694061782744,
+        "mean_mbps": 97.92076504827935,
+        "outage_frac": 0.13348946135831383
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 5.662186989509011,
+        "rmin_p10_mbps": 2.5883620568027563,
+        "mean_mbps": 91.33871310150346,
+        "outage_frac": 0.1810304449648712
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 6.825811788277774,
+        "rmin_p10_mbps": 3.039664770561909,
+        "mean_mbps": 99.879544798119,
+        "outage_frac": 0.1263856362217018
+      }
+    },
+    "JOINT": {
+      "long_term_grid": {
+        "rmin_mbps": 81.60787718762593,
+        "rmin_p10_mbps": 81.60787718762593,
+        "mean_mbps": 127.77033789094969,
+        "outage_frac": 0.0
+      },
+      "rt_exact": {
+        "rmin_mbps": 40.55425611983061,
+        "rmin_p10_mbps": 40.55425611983061,
+        "mean_mbps": 122.42933421287145,
+        "outage_frac": 0.008869179600886918
+      },
+      "rt_exact_adaptive": {
+        "rmin_mbps": 51.10948104746406,
+        "rmin_p10_mbps": 51.10948104746406,
+        "mean_mbps": 126.58239023278695,
+        "outage_frac": 0.0022172949002217295
+      },
+      "lt_plus_st_offline_kstar": {
+        "rmin_mbps": 69.61587564576857,
+        "rmin_p10_mbps": 65.3469821291669,
+        "mean_mbps": 124.32442487774351,
+        "outage_frac": 0.0015521064301552106
+      },
+      "lt_plus_st_adaptive": {
+        "rmin_mbps": 75.13948712498308,
+        "rmin_p10_mbps": 70.81500802643198,
+        "mean_mbps": 128.46491054455262,
+        "outage_frac": 0.00022172949002217295
+      }
+    }
+  },
+  "k_sweep": {
+    "NAIVE": [
+      {
+        "K_db": 40.0,
+        "rmin_mbps": 0.6903977340109151,
+        "rmin_p10_mbps": 0.25161657696026646,
+        "mean_mbps": 79.55325376539673,
+        "outage_frac": 0.3078167115902965
+      },
+      {
+        "K_db": 20.0,
+        "rmin_mbps": 1.2179565128162693,
+        "rmin_p10_mbps": 0.283292109580058,
+        "mean_mbps": 79.25241905212897,
+        "outage_frac": 0.3150943396226415
+      },
+      {
+        "K_db": 15.0,
+        "rmin_mbps": 1.0291167479491679,
+        "rmin_p10_mbps": 0.373124381629404,
+        "mean_mbps": 79.52585845932117,
+        "outage_frac": 0.31994609164420484
+      },
+      {
+        "K_db": 10.0,
+        "rmin_mbps": 2.347284911307219,
+        "rmin_p10_mbps": 0.8572625833394498,
+        "mean_mbps": 80.27241444800376,
+        "outage_frac": 0.3129380053908356
+      },
+      {
+        "K_db": 5.0,
+        "rmin_mbps": 3.3611345948746516,
+        "rmin_p10_mbps": 0.6380014626814539,
+        "mean_mbps": 81.68444401929607,
+        "outage_frac": 0.3115902964959569
+      },
+      {
+        "K_db": 0.0,
+        "rmin_mbps": 4.97337478437424,
+        "rmin_p10_mbps": 2.665998174705425,
+        "mean_mbps": 86.62391355651556,
+        "outage_frac": 0.2679245283018868
+      }
+    ],
+    "+MRC": [
+      {
+        "K_db": 40.0,
+        "rmin_mbps": 4.614935141927278,
+        "rmin_p10_mbps": 2.5579085079876425,
+        "mean_mbps": 100.90171168758509,
+        "outage_frac": 0.15444743935309974
+      },
+      {
+        "K_db": 20.0,
+        "rmin_mbps": 4.83747621610036,
+        "rmin_p10_mbps": 2.96995537634088,
+        "mean_mbps": 101.32475748025833,
+        "outage_frac": 0.14555256064690028
+      },
+      {
+        "K_db": 15.0,
+        "rmin_mbps": 9.014948410994638,
+        "rmin_p10_mbps": 3.9555148234926008,
+        "mean_mbps": 101.75996828134825,
+        "outage_frac": 0.13827493261455526
+      },
+      {
+        "K_db": 10.0,
+        "rmin_mbps": 11.957865071032334,
+        "rmin_p10_mbps": 4.464114435349026,
+        "mean_mbps": 102.79082306397034,
+        "outage_frac": 0.12964959568733153
+      },
+      {
+        "K_db": 5.0,
+        "rmin_mbps": 14.139773648151362,
+        "rmin_p10_mbps": 10.329359057908942,
+        "mean_mbps": 105.45720194384036,
+        "outage_frac": 0.10350404312668464
+      },
+      {
+        "K_db": 0.0,
+        "rmin_mbps": 27.799232495085636,
+        "rmin_p10_mbps": 22.089222762163235,
+        "mean_mbps": 111.58200575162053,
+        "outage_frac": 0.07681940700808626
+      }
+    ],
+    "+OPTBW": [
+      {
+        "K_db": 40.0,
+        "rmin_mbps": 1.5871689889635106,
+        "rmin_p10_mbps": 0.9586394359863036,
+        "mean_mbps": 91.1022455349243,
+        "outage_frac": 0.2371967654986523
+      },
+      {
+        "K_db": 20.0,
+        "rmin_mbps": 2.3949864419872156,
+        "rmin_p10_mbps": 1.305174165735285,
+        "mean_mbps": 91.1109748130457,
+        "outage_frac": 0.23423180592991913
+      },
+      {
+        "K_db": 15.0,
+        "rmin_mbps": 3.39113671491126,
+        "rmin_p10_mbps": 1.3786266012772368,
+        "mean_mbps": 91.03535812881606,
+        "outage_frac": 0.23611859838274932
+      },
+      {
+        "K_db": 10.0,
+        "rmin_mbps": 3.51698381617034,
+        "rmin_p10_mbps": 1.6875068236807724,
+        "mean_mbps": 91.28874832450525,
+        "outage_frac": 0.2353099730458221
+      },
+      {
+        "K_db": 5.0,
+        "rmin_mbps": 6.262144307022268,
+        "rmin_p10_mbps": 3.738390022969005,
+        "mean_mbps": 92.42712813501652,
+        "outage_frac": 0.2215633423180593
+      },
+      {
+        "K_db": 0.0,
+        "rmin_mbps": 9.045194214550909,
+        "rmin_p10_mbps": 3.2109932997312858,
+        "mean_mbps": 96.03532912862026,
+        "outage_frac": 0.1935309973045822
+      }
+    ],
+    "JOINT": [
+      {
+        "K_db": 40.0,
+        "rmin_mbps": 56.079587415165854,
+        "rmin_p10_mbps": 47.08201172738399,
+        "mean_mbps": 122.4098975608445,
+        "outage_frac": 0.008647450110864745
+      },
+      {
+        "K_db": 20.0,
+        "rmin_mbps": 59.46294651063402,
+        "rmin_p10_mbps": 53.97271860482785,
+        "mean_mbps": 122.46481075082889,
+        "outage_frac": 0.006208425720620843
+      },
+      {
+        "K_db": 15.0,
+        "rmin_mbps": 65.04315491344055,
+        "rmin_p10_mbps": 53.14157470732249,
+        "mean_mbps": 123.01107781525657,
+        "outage_frac": 0.0017738359201773836
+      },
+      {
+        "K_db": 10.0,
+        "rmin_mbps": 68.57187096141247,
+        "rmin_p10_mbps": 64.3540801250402,
+        "mean_mbps": 124.3258155999673,
+        "outage_frac": 0.0024390243902439024
+      },
+      {
+        "K_db": 5.0,
+        "rmin_mbps": 70.4997378304692,
+        "rmin_p10_mbps": 65.52573101193279,
+        "mean_mbps": 126.91420050594753,
+        "outage_frac": 0.0008869179600886918
+      },
+      {
+        "K_db": 0.0,
+        "rmin_mbps": 68.3367151896058,
+        "rmin_p10_mbps": 57.19091083854206,
+        "mean_mbps": 131.85393529204615,
+        "outage_frac": 0.0019955654101995565
+      }
+    ]
+  }
+}

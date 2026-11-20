@@ -1,0 +1,52 @@
+{
+  "map_folder": "sionna_mapB",
+  "csi": "perfect",
+  "csi_model": "SINR[n] = P|h[n]|^2 / (s2 + P*NMSE*|h[n]|^2/N_ant)",
+  "algorithm": "per 0.1 s and per band order (24): start 16 each, shift contiguous boundaries one SC from max-rate to min-rate AMR while instantaneous R_min strictly increases; best order",
+  "feasible_combos": 44072,
+  "variable_size": {
+    "best_paths": {
+      "AMR1": 20,
+      "AMR2": 15,
+      "AMR3": 12,
+      "AMR4": 11
+    },
+    "rmin_mbps": 76.68,
+    "combos_tied_at_best": 1,
+    "mean_of_instant_min_mbps": 82.79,
+    "makespan_s": 48.3,
+    "same_paths_16each_rmin_mbps": 65.44,
+    "band_size_range_per_amr": {
+      "AMR1": [
+        13,
+        20
+      ],
+      "AMR2": [
+        13,
+        21
+      ],
+      "AMR3": [
+        13,
+        19
+      ],
+      "AMR4": [
+        13,
+        19
+      ]
+    },
+    "median_over_combos_mbps": 73.16
+  },
+  "fixed16_best_of_24": {
+    "best_paths": {
+      "AMR1": 4,
+      "AMR2": 14,
+      "AMR3": 11,
+      "AMR4": 8
+    },
+    "rmin_mbps": 70.02,
+    "median_over_combos_mbps": 65.44
+  },
+  "unique_placements": 2893823,
+  "max_iterations": 11,
+  "runtime_min": 2.1
+}

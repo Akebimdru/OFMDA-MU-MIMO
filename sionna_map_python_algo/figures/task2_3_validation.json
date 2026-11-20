@@ -1,0 +1,35 @@
+{
+  "SMARTPATH": {
+    "candidate_pair_count_is_900": true,
+    "qos_threshold_mbps": 70.0,
+    "amr_offset_difference_is_7db": true,
+    "selected_pair_index": 9,
+    "feasible_pair_count": 0,
+    "used_infeasible_fallback": true,
+    "selected_rmin_mbps": 16.651187120903394,
+    "selected_completion_time_s": 44.04163056034261,
+    "selected_is_max_rmin_fallback": true
+  },
+  "JOINT": {
+    "candidate_pair_count_is_900": true,
+    "qos_threshold_mbps": 70.0,
+    "amr_offset_difference_is_7db": true,
+    "selected_pair_index": 22,
+    "feasible_pair_count": 186,
+    "used_infeasible_fallback": false,
+    "selected_rmin_mbps": 71.8390673838762,
+    "selected_completion_time_s": 36.970562748477136,
+    "selected_satisfies_qos": true,
+    "selected_has_minimum_feasible_time": true,
+    "opt_bw_shape_is_T_by_64": true,
+    "opt_bw_k_star_in_1_to_63": true,
+    "opt_bw_equal_bw_exactly_32": true,
+    "opt_bw_r1_prefix_monotone": true,
+    "opt_bw_r2_suffix_monotone": true,
+    "opt_bw_opt_not_worse_than_equal_every_step": true,
+    "expected_amr1_remains_shortest": true,
+    "amr1_joint_minus_shortest_m": 0.0,
+    "expected_amr2_takes_north_detour": true,
+    "expected_qualitative_pattern_matches": true
+  }
+}

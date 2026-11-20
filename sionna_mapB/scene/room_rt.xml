@@ -1,0 +1,74 @@
+<scene version="3.0.0">
+  <bsdf type="itu-radio-material" id="mat-room">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.2"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-wall">
+    <string name="type" value="concrete"/>
+    <float name="thickness" value="0.25"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-pillar_metal">
+    <string name="type" value="metal"/>
+    <float name="thickness" value="0.01"/>
+    <float name="scattering_coefficient" value="0.2"/>
+  </bsdf>
+  <bsdf type="itu-radio-material" id="mat-amr">
+    <string name="type" value="metal"/>
+    <float name="thickness" value="0.01"/>
+    <float name="scattering_coefficient" value="0.0"/>
+  </bsdf>
+  <shape type="ply" id="wall_x0">
+    <string name="filename" value="meshes/wall_x0.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_xmax">
+    <string name="filename" value="meshes/wall_xmax.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_y0">
+    <string name="filename" value="meshes/wall_y0.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="wall_ymax">
+    <string name="filename" value="meshes/wall_ymax.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="floor">
+    <string name="filename" value="meshes/floor.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="ceiling">
+    <string name="filename" value="meshes/ceiling.ply"/>
+    <ref id="mat-room" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_partition_w">
+    <string name="filename" value="meshes/obs_partition_w.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_partition_c">
+    <string name="filename" value="meshes/obs_partition_c.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_partition_e">
+    <string name="filename" value="meshes/obs_partition_e.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_wall_s">
+    <string name="filename" value="meshes/obs_wall_s.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_wall_n">
+    <string name="filename" value="meshes/obs_wall_n.ply"/>
+    <ref id="mat-wall" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_nw">
+    <string name="filename" value="meshes/obs_pillar_nw.ply"/>
+    <ref id="mat-pillar_metal" name="bsdf"/>
+  </shape>
+  <shape type="ply" id="obs_pillar_se">
+    <string name="filename" value="meshes/obs_pillar_se.ply"/>
+    <ref id="mat-pillar_metal" name="bsdf"/>
+  </shape>
+</scene>

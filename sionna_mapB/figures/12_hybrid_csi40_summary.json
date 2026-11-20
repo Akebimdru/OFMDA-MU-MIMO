@@ -1,0 +1,50 @@
+{
+  "map_folder": "sionna_mapB",
+  "csi": "NMSE -40 dB",
+  "csi_model": "SINR_a = P (g_aa - |g_ab|^2/g_bb) / (s2 + P*NMSE*(g_aa+g_bb)/N_ant)",
+  "algorithm": "every 0.1 s: per-SC 2-user ZF for 6 pairs, 3 pairings x 2 band orders, k by bisection, maximize instantaneous min rate",
+  "feasible_combos": 44072,
+  "hybrid": {
+    "best_paths": {
+      "AMR1": 8,
+      "AMR2": 8,
+      "AMR3": 12,
+      "AMR4": 23
+    },
+    "rmin_mbps": 123.76,
+    "combos_tied_at_best": 2,
+    "mean_of_instant_min_mbps": 131.58,
+    "makespan_s": 38.3,
+    "bottleneck_time_s": 32.5,
+    "bottleneck_amr": "AMR1",
+    "k_range": [
+      29,
+      34
+    ],
+    "option_share_pct": {
+      "A:12 B:34": 9.5,
+      "A:34 B:12": 8.9,
+      "A:13 B:24": 7.9,
+      "A:24 B:13": 6.8,
+      "A:14 B:23": 25.0,
+      "A:23 B:14": 41.9
+    },
+    "mumimo_on_same_paths_rmin_mbps": 94.59,
+    "median_over_combos_mbps": 106.53
+  },
+  "comparison_best_rmin_mbps": {
+    "ofdma_fixed16": 67.53,
+    "ofdma_variable": 69.98,
+    "hybrid_2x2": 123.76,
+    "mumimo_4x4": 115.97
+  },
+  "comparison_median_over_combos_mbps": {
+    "ofdma_variable": 68.31,
+    "hybrid_2x2": 106.53,
+    "mumimo_4x4": 73.52
+  },
+  "hybrid_beats_mumimo_pct_of_combos": 99.97,
+  "hybrid_beats_ofdma_pct_of_combos": 100.0,
+  "unique_placements": 2893823,
+  "runtime_min": 3.2
+}

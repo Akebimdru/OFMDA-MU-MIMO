@@ -1,0 +1,17 @@
+{
+  "shape_is_T_by_64": true,
+  "k_star_in_1_to_63": true,
+  "equal_bw_exactly_32": true,
+  "r1_prefix_monotone": true,
+  "r2_suffix_monotone": true,
+  "opt_not_worse_than_equal_every_step": true,
+  "minimum_opt_minus_equal_bps": 0.0,
+  "mean_opt_minus_equal_bps": 18143927.823421735,
+  "k_star_min": 3,
+  "k_star_max": 50,
+  "mean_rate1_bps": 73223051.6000394,
+  "mean_rate2_bps": 72982676.34640822,
+  "sim_dt_s": 0.1,
+  "shortest_path_completion_time_s": 36.970562748477136,
+  "time_steps": 371
+}

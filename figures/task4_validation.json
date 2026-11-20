@@ -1,0 +1,10 @@
+{
+  "has_all_900_candidate_pairs": true,
+  "frontier_contains_only_feasible_points": true,
+  "frontier_is_strictly_improving_in_rmin": true,
+  "joint_choice_is_on_frontier": true,
+  "qos_sweep_uses_exact_11_values": true,
+  "qos_sweep_has_11_points": true,
+  "feasible_sweep_choices_satisfy_qos": true,
+  "infeasible_sweep_choices_use_max_rmin": true
+}

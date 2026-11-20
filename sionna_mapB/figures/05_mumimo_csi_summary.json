@@ -1,0 +1,121 @@
+{
+  "map_folder": "sionna_mapB",
+  "channel": "10 cm Sionna RT map (3 Gaussian impairments)",
+  "feasible_combos": 44072,
+  "fastest_combo": {
+    "AMR1": 2,
+    "AMR2": 5,
+    "AMR3": 0,
+    "AMR4": 0
+  },
+  "fastest_makespan_s": 33.6,
+  "csi_model": "H_hat = H - E, E ~ CN(0, NMSE*|h_j|^2/N_ant) per element; SINR_k = P / ((s2 + P*sum_j s_ej^2) [(H^H H)^-1]_kk)",
+  "levels": {
+    "-40 dB": {
+      "best_paths": {
+        "AMR1": 21,
+        "AMR2": 10,
+        "AMR3": 16,
+        "AMR4": 22
+      },
+      "rmin_mbps": 115.97,
+      "combos_tied_at_best": 1,
+      "mean_of_instant_min_mbps": 173.48,
+      "makespan_s": 37.8,
+      "median_over_combos_mbps": 73.52,
+      "fastest_combo_rmin_mbps": 87.83,
+      "perfect_csi_best_combo_rmin_mbps": 86.86
+    },
+    "-35 dB": {
+      "best_paths": {
+        "AMR1": 21,
+        "AMR2": 10,
+        "AMR3": 16,
+        "AMR4": 22
+      },
+      "rmin_mbps": 84.83,
+      "combos_tied_at_best": 1,
+      "mean_of_instant_min_mbps": 142.22,
+      "makespan_s": 37.8,
+      "median_over_combos_mbps": 47.23,
+      "fastest_combo_rmin_mbps": 59.31,
+      "perfect_csi_best_combo_rmin_mbps": 58.65
+    },
+    "-30 dB": {
+      "best_paths": {
+        "AMR1": 21,
+        "AMR2": 10,
+        "AMR3": 16,
+        "AMR4": 22
+      },
+      "rmin_mbps": 56.14,
+      "combos_tied_at_best": 1,
+      "mean_of_instant_min_mbps": 110.46,
+      "makespan_s": 37.8,
+      "median_over_combos_mbps": 26.07,
+      "fastest_combo_rmin_mbps": 34.79,
+      "perfect_csi_best_combo_rmin_mbps": 34.91
+    },
+    "-25 dB": {
+      "best_paths": {
+        "AMR1": 21,
+        "AMR2": 10,
+        "AMR3": 16,
+        "AMR4": 22
+      },
+      "rmin_mbps": 32.33,
+      "combos_tied_at_best": 1,
+      "mean_of_instant_min_mbps": 79.72,
+      "makespan_s": 37.8,
+      "median_over_combos_mbps": 12.03,
+      "fastest_combo_rmin_mbps": 17.09,
+      "perfect_csi_best_combo_rmin_mbps": 17.82
+    },
+    "-20 dB": {
+      "best_paths": {
+        "AMR1": 21,
+        "AMR2": 10,
+        "AMR3": 16,
+        "AMR4": 22
+      },
+      "rmin_mbps": 15.62,
+      "combos_tied_at_best": 1,
+      "mean_of_instant_min_mbps": 51.81,
+      "makespan_s": 37.8,
+      "median_over_combos_mbps": 4.68,
+      "fastest_combo_rmin_mbps": 7.01,
+      "perfect_csi_best_combo_rmin_mbps": 7.71
+    },
+    "-15 dB": {
+      "best_paths": {
+        "AMR1": 8,
+        "AMR2": 10,
+        "AMR3": 6,
+        "AMR4": 22
+      },
+      "rmin_mbps": 6.3,
+      "combos_tied_at_best": 2,
+      "mean_of_instant_min_mbps": 30.11,
+      "makespan_s": 42.4,
+      "median_over_combos_mbps": 1.62,
+      "fastest_combo_rmin_mbps": 2.5,
+      "perfect_csi_best_combo_rmin_mbps": 2.89
+    },
+    "-10 dB": {
+      "best_paths": {
+        "AMR1": 8,
+        "AMR2": 10,
+        "AMR3": 6,
+        "AMR4": 22
+      },
+      "rmin_mbps": 2.3,
+      "combos_tied_at_best": 1,
+      "mean_of_instant_min_mbps": 14.48,
+      "makespan_s": 42.4,
+      "median_over_combos_mbps": 0.53,
+      "fastest_combo_rmin_mbps": 0.83,
+      "perfect_csi_best_combo_rmin_mbps": 0.98
+    }
+  },
+  "runtime_min_both": 8.8
+}

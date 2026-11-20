@@ -1,0 +1,24 @@
+{
+ "grid": "160 x 80 (10 cm)",
+ "free_points": 11636,
+ "points_without_any_path": 0,
+ "snr_db_robot_reachable": {
+  "min": 27.7,
+  "p5": 40.5,
+  "median": 48.8,
+  "max": 63.8
+ },
+ "noise_abs_delta_snr_db_median": 0.42,
+ "start_snr_db": {
+  "AMR1": 50.7,
+  "AMR2": 51.7,
+  "AMR3": 52.1,
+  "AMR4": 50.4
+ },
+ "goal_snr_db": {
+  "AMR1": 45.8,
+  "AMR2": 52.1,
+  "AMR3": 47.0,
+  "AMR4": 50.7
+ }
+}

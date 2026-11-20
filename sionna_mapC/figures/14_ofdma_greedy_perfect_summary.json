@@ -1,0 +1,64 @@
+{
+  "map_folder": "sionna_mapC",
+  "csi": "perfect",
+  "algorithm": "per 0.1 s: AMR1..4 each take its best free SC, then the AMR with the lowest current rate takes its best free SC until all 64 are assigned (non-contiguous)",
+  "feasible_combos": 131521,
+  "greedy": {
+    "best_paths": {
+      "AMR1": 8,
+      "AMR2": 2,
+      "AMR3": 8,
+      "AMR4": 8
+    },
+    "rmin_mbps": 75.01,
+    "mean_of_instant_min_mbps": 81.43,
+    "makespan_s": 37.6,
+    "median_over_combos_mbps": 69.2,
+    "sc_count_range_per_amr": {
+      "AMR1": [
+        13,
+        18
+      ],
+      "AMR2": [
+        14,
+        19
+      ],
+      "AMR3": [
+        14,
+        19
+      ],
+      "AMR4": [
+        13,
+        19
+      ]
+    },
+    "pieces_per_amr_median": 8.0
+  },
+  "best_rmin_mbps": {
+    "greedy_noncontiguous": 75.01,
+    "boundary_shift_contiguous": 75.23,
+    "exact_contiguous": 75.23
+  },
+  "median_over_combos_mbps": {
+    "greedy_noncontiguous": 69.2,
+    "boundary_shift_contiguous": 69.46,
+    "exact_contiguous": 69.46
+  },
+  "per_combo_greedy_minus_shift_mbps": {
+    "mean": -0.198,
+    "min": -3.246,
+    "max": 2.282,
+    "greedy_better_pct": 36.85,
+    "greedy_worse_pct": 61.13
+  },
+  "per_combo_greedy_minus_exact_contiguous_mbps": {
+    "mean": -0.202,
+    "min": -3.246,
+    "max": 2.282,
+    "greedy_better_pct": 36.5,
+    "greedy_worse_pct": 61.51
+  },
+  "unique_placements": 7969092,
+  "greedy_time_per_placement_us": 40.96,
+  "runtime_min": 5.7
+}

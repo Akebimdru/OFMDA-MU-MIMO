@@ -1,0 +1,41 @@
+{
+  "channel": "10 cm Sionna map, simultaneous departure",
+  "mumimo": {
+    "best_paths": {
+      "AMR1": 14,
+      "AMR2": 20,
+      "AMR3": 22,
+      "AMR4": 19
+    },
+    "rmin_mbps": 145.17,
+    "combos_tied_at_best": 2896,
+    "mean_of_instant_min_mbps": 238.22,
+    "mean_rate_per_amr_mbps": {
+      "AMR1": 278.16,
+      "AMR2": 254.06,
+      "AMR3": 251.36,
+      "AMR4": 278.76
+    },
+    "makespan_s": 38.7,
+    "fastest_combo_rmin_mbps": 145.17,
+    "median_over_combos_mbps": 121.65
+  },
+  "ofdma_adaptive": {
+    "best_paths": {
+      "AMR1": 1,
+      "AMR2": 8,
+      "AMR3": 4,
+      "AMR4": 13
+    },
+    "rmin_mbps": 60.99,
+    "combos_tied_at_best": 427,
+    "mean_of_instant_min_mbps": 73.37,
+    "band_switch_count": 152,
+    "median_over_combos_mbps": 56.18
+  },
+  "ofdma_fixed": {
+    "best_rmin_mbps": 59.04,
+    "median_over_combos_mbps": 52.7
+  },
+  "runtime_min": 17.6
+}

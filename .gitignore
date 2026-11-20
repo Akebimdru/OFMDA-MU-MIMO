@@ -1,0 +1,9 @@
+# Copyrighted lecture / paper PDFs
+*.pdf
+papers/
+# Python cache
+__pycache__/
+*.pyc
+# Large simulation data (ray-tracing channels, results) - regenerate with the code
+*.npy
+*.npz

@@ -1,0 +1,152 @@
+{
+  "feasibility_counts": {
+    "50": 900,
+    "70": 266,
+    "80": 167
+  },
+  "qos_sweep": [
+    {
+      "qos_mbps": 10.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 30.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 50.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 55.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 60.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 65.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 68.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 70.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 72.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 75.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    },
+    {
+      "qos_mbps": 80.0,
+      "selected_index": 22,
+      "path_pair": [
+        0,
+        22
+      ],
+      "completion_time_s": 36.970562748477136,
+      "rmin_mbps": 86.80847130550738,
+      "path1_length_m": 18.48528137423857,
+      "path2_length_m": 18.48528137423857,
+      "feasible": true
+    }
+  ]
+}

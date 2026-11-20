@@ -1,0 +1,341 @@
+{
+ "A": {
+  "perfect": {
+   "travel_s": [
+    37.9,
+    37.9,
+    37.9,
+    37.9
+   ],
+   "rmin": {
+    "ofdma_var": 63.9,
+    "mumimo": 128.7,
+    "hybrid": 122.5
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 228.8,
+    "hybrid": 156.2
+   },
+   "frac_time_hybrid_beats_mumimo": 0.008,
+   "frac_time_ofdma_beats_mumimo": 0.0,
+   "shadow_time_frac": [
+    0.08,
+    0.05,
+    0.05,
+    0.07
+   ]
+  },
+  "nmse-30": {
+   "travel_s": [
+    37.9,
+    37.9,
+    37.9,
+    37.9
+   ],
+   "rmin": {
+    "ofdma_var": 63.9,
+    "mumimo": 24.1,
+    "hybrid": 82.9
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 110.7,
+    "hybrid": 113.7
+   },
+   "frac_time_hybrid_beats_mumimo": 0.55,
+   "frac_time_ofdma_beats_mumimo": 0.133,
+   "shadow_time_frac": [
+    0.08,
+    0.05,
+    0.05,
+    0.07
+   ]
+  },
+  "nmse-25": {
+   "travel_s": [
+    37.9,
+    37.9,
+    37.9,
+    37.9
+   ],
+   "rmin": {
+    "ofdma_var": 63.9,
+    "mumimo": 14.2,
+    "hybrid": 62.7
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 80.3,
+    "hybrid": 99.5
+   },
+   "frac_time_hybrid_beats_mumimo": 0.853,
+   "frac_time_ofdma_beats_mumimo": 0.501,
+   "shadow_time_frac": [
+    0.08,
+    0.05,
+    0.05,
+    0.07
+   ]
+  },
+  "nmse-20": {
+   "travel_s": [
+    37.9,
+    37.9,
+    37.9,
+    37.9
+   ],
+   "rmin": {
+    "ofdma_var": 63.9,
+    "mumimo": 7.6,
+    "hybrid": 51.0
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 53.0,
+    "hybrid": 83.9
+   },
+   "frac_time_hybrid_beats_mumimo": 0.986,
+   "frac_time_ofdma_beats_mumimo": 0.932,
+   "shadow_time_frac": [
+    0.08,
+    0.05,
+    0.05,
+    0.07
+   ]
+  },
+  "start_snr_db": [
+   42.9,
+   40.6,
+   39.1,
+   38.2
+  ],
+  "snr_median_db": 44.1
+ },
+ "B": {
+  "perfect": {
+   "travel_s": [
+    36.1,
+    36.1,
+    36.1,
+    36.1
+   ],
+   "rmin": {
+    "ofdma_var": 69.4,
+    "mumimo": 150.5,
+    "hybrid": 129.5
+   },
+   "median_inst_min": {
+    "ofdma_var": 84.6,
+    "mumimo": 248.6,
+    "hybrid": 161.8
+   },
+   "frac_time_hybrid_beats_mumimo": 0.0,
+   "frac_time_ofdma_beats_mumimo": 0.0,
+   "shadow_time_frac": [
+    0.01,
+    0.01,
+    0.0,
+    0.01
+   ]
+  },
+  "nmse-30": {
+   "travel_s": [
+    36.1,
+    36.1,
+    36.1,
+    36.1
+   ],
+   "rmin": {
+    "ofdma_var": 69.4,
+    "mumimo": 51.0,
+    "hybrid": 90.5
+   },
+   "median_inst_min": {
+    "ofdma_var": 84.6,
+    "mumimo": 111.8,
+    "hybrid": 112.8
+   },
+   "frac_time_hybrid_beats_mumimo": 0.534,
+   "frac_time_ofdma_beats_mumimo": 0.122,
+   "shadow_time_frac": [
+    0.01,
+    0.01,
+    0.0,
+    0.01
+   ]
+  },
+  "nmse-25": {
+   "travel_s": [
+    36.1,
+    36.1,
+    36.1,
+    36.1
+   ],
+   "rmin": {
+    "ofdma_var": 69.4,
+    "mumimo": 28.2,
+    "hybrid": 74.2
+   },
+   "median_inst_min": {
+    "ofdma_var": 84.6,
+    "mumimo": 81.8,
+    "hybrid": 97.4
+   },
+   "frac_time_hybrid_beats_mumimo": 0.799,
+   "frac_time_ofdma_beats_mumimo": 0.579,
+   "shadow_time_frac": [
+    0.01,
+    0.01,
+    0.0,
+    0.01
+   ]
+  },
+  "nmse-20": {
+   "travel_s": [
+    36.1,
+    36.1,
+    36.1,
+    36.1
+   ],
+   "rmin": {
+    "ofdma_var": 69.4,
+    "mumimo": 15.8,
+    "hybrid": 58.3
+   },
+   "median_inst_min": {
+    "ofdma_var": 84.6,
+    "mumimo": 54.2,
+    "hybrid": 81.2
+   },
+   "frac_time_hybrid_beats_mumimo": 0.97,
+   "frac_time_ofdma_beats_mumimo": 0.966,
+   "shadow_time_frac": [
+    0.01,
+    0.01,
+    0.0,
+    0.01
+   ]
+  },
+  "start_snr_db": [
+   51.1,
+   47.3,
+   51.8,
+   51.0
+  ],
+  "snr_median_db": 50.4
+ },
+ "C": {
+  "perfect": {
+   "travel_s": [
+    34.4,
+    34.4,
+    34.4,
+    34.4
+   ],
+   "rmin": {
+    "ofdma_var": 71.0,
+    "mumimo": 161.1,
+    "hybrid": 129.3
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 236.1,
+    "hybrid": 154.6
+   },
+   "frac_time_hybrid_beats_mumimo": 0.0,
+   "frac_time_ofdma_beats_mumimo": 0.0,
+   "shadow_time_frac": [
+    0.02,
+    0.02,
+    0.03,
+    0.01
+   ]
+  },
+  "nmse-30": {
+   "travel_s": [
+    34.4,
+    34.4,
+    34.4,
+    34.4
+   ],
+   "rmin": {
+    "ofdma_var": 71.0,
+    "mumimo": 48.5,
+    "hybrid": 90.0
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 104.9,
+    "hybrid": 110.8
+   },
+   "frac_time_hybrid_beats_mumimo": 0.605,
+   "frac_time_ofdma_beats_mumimo": 0.194,
+   "shadow_time_frac": [
+    0.02,
+    0.02,
+    0.03,
+    0.01
+   ]
+  },
+  "nmse-25": {
+   "travel_s": [
+    34.4,
+    34.4,
+    34.4,
+    34.4
+   ],
+   "rmin": {
+    "ofdma_var": 71.0,
+    "mumimo": 24.2,
+    "hybrid": 71.8
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 74.7,
+    "hybrid": 95.6
+   },
+   "frac_time_hybrid_beats_mumimo": 0.828,
+   "frac_time_ofdma_beats_mumimo": 0.643,
+   "shadow_time_frac": [
+    0.02,
+    0.02,
+    0.03,
+    0.01
+   ]
+  },
+  "nmse-20": {
+   "travel_s": [
+    34.4,
+    34.4,
+    34.4,
+    34.4
+   ],
+   "rmin": {
+    "ofdma_var": 71.0,
+    "mumimo": 12.6,
+    "hybrid": 57.0
+   },
+   "median_inst_min": {
+    "ofdma_var": 81.9,
+    "mumimo": 48.1,
+    "hybrid": 79.5
+   },
+   "frac_time_hybrid_beats_mumimo": 0.966,
+   "frac_time_ofdma_beats_mumimo": 0.962,
+   "shadow_time_frac": [
+    0.02,
+    0.02,
+    0.03,
+    0.01
+   ]
+  },
+  "start_snr_db": [
+   48.1,
+   49.5,
+   48.9,
+   48.8
+  ],
+  "snr_median_db": 49.1
+ }
+}
