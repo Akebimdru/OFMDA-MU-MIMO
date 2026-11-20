@@ -1,20 +1,35 @@
 # OFDMA / MU-MIMO for multi-AMR indoor networks (26-2 lab internship)
 
-Sionna RT based simulations of subcarrier allocation (OFDMA, MU-MIMO ZF, hybrid 2x2) and path planning for 4 AMRs.
+Sionna RT simulations, grouped into 4 parts.
 
+## 01_final_project_sionna — final project re-simulated with Sionna
 | Folder | Contents |
 |---|---|
-| `code/`, `figures/`, `build_report.py` | Original final project (assignment model) |
-| `sionna_project/` | Sionna version of the final project (Task 1-5) |
-| `sionna_short_term/` | Gaussian + RT multipath short-term version |
-| `sionna_map_python_algo/` | Sionna map + pure-Python algorithm version |
+| `sionna_project/` | Final project (Task 1-5) rebuilt with Sionna RT (4 walls, handout gain formula) |
+| `sionna_short_term/` | Short-term variation added (Gaussian path/amplitude jitter + diffuse Rician) |
+| `sionna_map_python_algo/` | Full Sionna RT map (ITU materials) + original Python algorithm |
 | `sionna_fullphysics_wip/` | Full-physics RT variant (work in progress, paused) |
-| `sionna_4amr_hybrid/` | 4-AMR map A: OFDMA / MU-MIMO / hybrid comparison |
-| `new_map_candidates/` | Map redesign candidates (A, B, C) with fast proxy |
-| `sionna_mapB/`, `sionna_mapC/` | Maps B and C: 10 cm RT, CSI-error comparison |
-| `ofdma_warmstart/` | Warm-start OFDMA band allocation |
-| `output/docx/` | Reports |
+| `report/` | Report for the Sionna-map version |
 
-`PROJECT_README.md` is the original top-level README.
+## 02_mapA — 4-AMR map A (16x8 m, BS at ceiling centre)
+| Folder | Contents |
+|---|---|
+| `sionna_4amr_hybrid/` | OFDMA (fixed/variable/exact), MU-MIMO ZF, hybrid 2x2, collision filter, 10 cm fine map |
+| `ofdma_warmstart/` | Warm-start OFDMA band allocation on map A (`mapA_old/`) |
+
+## 03_mapB — map B (partition + gates, metal pillars)
+| Folder | Contents |
+|---|---|
+| `sionna_mapB/` | 10 cm RT SNR map, candidate paths, 3 schemes with perfect CSI and NMSE -40 dB CSI error |
+| `new_map_candidates/` | Map redesign candidates (A aisles, B partition, C wall BS) with fast proxy, B v2-v5 iterations |
+| `ofdma_warmstart/` | Warm-start OFDMA band allocation on map B |
+
+## 04_mapC — map C (BS on south wall, concrete islands, metal block)
+| Folder | Contents |
+|---|---|
+| `sionna_mapC/` | Same analysis as map B |
+| `ofdma_warmstart/` | Warm-start OFDMA band allocation on map C |
+
+`ofdma_warm.py` is copied into each map's `ofdma_warmstart/` folder; it takes the map folder name as an argument.
 
 Not included (see `.gitignore`): lecture and paper PDFs (copyright), `__pycache__`, and `.npy`/`.npz` simulation data (~660 MB; regenerate with each folder's code).
